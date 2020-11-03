@@ -15,14 +15,24 @@ interface Param{
 const Header:React.FC<Param> = _ =>{
     return(
        <HeaderTag>
-           <img src={Logo} alt="Logo"/>
+           <img src={Logo} className="Logo" alt="Logo"/>
 
            <ul className="Menu">
-               <li>Graveyard</li>
-               <li>Track Record</li>
-               <li>Services</li>
-               <li>Know More</li>
-               <li>Support</li>
+               <li className="ItemMenu">
+                   <a href="/">Graveyard</a>
+               </li>
+               <li className="ItemMenu"> 
+                   <a href="/"> Track Record</a>
+                </li>
+               <li className="ItemMenu">   
+                   <a href="/"> Services</a>
+                </li>
+               <li className="ItemMenu">
+                   <a href="/">Know More</a>
+                </li>
+               <li className="ItemMenu">
+                   <a id="ButtonSuport" href="/">Support</a>
+                </li>
            </ul>
 
        </HeaderTag>
