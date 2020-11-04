@@ -32,7 +32,7 @@ import styled from 'styled-components';
     .Stepper{
         position: relative;
         top:250px;
-        right:100px;
+        right:40px;
     }
 
     .Image{
@@ -95,6 +95,73 @@ import styled from 'styled-components';
         opacity: 0.8;
 
         padding-top:20px;
+    }
+    
+    .Buttons{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items:center;
+
+        padding-top:65px;
+    }
+
+    .ButtonStyled{
+      
+    }
+
+    .ButtonArrowed{
+
+        background:none;
+        border:none;
+
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+
+        /* identical to box height */
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+    .Arrow{
+        padding-left:15px;
+    }
+    .AboutSkull{
+        max-width:400px;
+
+        position: relative;
+        top:75%;
+        left:20%;
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+
+    }   
+
+    .AboutSkullText{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 180%;
+
+        /* identical to box height, or 36px */
+        text-align: right;
+
+        color: #FFFFFF;
+    }
+    .AboutSkullTextSmall{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+
+        /* identical to box height */
+        text-align: right;
     }
 `;
 

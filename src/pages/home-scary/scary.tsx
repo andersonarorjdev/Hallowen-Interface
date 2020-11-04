@@ -27,6 +27,11 @@ const ScaryPage:React.FC<Param> = props=>{
                 <main id="Container">
                     <div className="Image">
                        <img className="Image" src={MainSkull} alt="" />
+                       <div className="AboutSkull">
+                           <img src={Marker} alt=""/>
+                           <h1 className="AboutSkullText">Captain Sem</h1>
+                           <h4 className="AboutSkullTextSmall">Veteran Spoky Ghost</h4>
+                       </div>
                     </div>
                     <div className="Text">
                         <div>
@@ -39,6 +44,15 @@ const ScaryPage:React.FC<Param> = props=>{
                                 backfrom his tragic death. With his hogwarts certified<br /> 
                                 power he promise to be a hero for all of ghostkind.
                             </p>
+                            <div className="Buttons">
+                                <a href="/" className="ButtonStyled">
+                                    Book Now
+                                </a>
+                                <button className="ButtonArrowed">
+                                    His Track Record
+                                    <img className="Arrow" src={Arrow} />
+                                </button>
+                            </div>
                         </div>
                         <div>
                             <img className="Stepper" src={stepper} alt=""  />
