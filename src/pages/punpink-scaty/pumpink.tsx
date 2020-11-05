@@ -8,6 +8,9 @@ import Header from '../../components/header/header';
 //Imports to styled components
 import {PumpinkTag} from './styled-pumpink';
 
+//Imports to images and assets
+import PumpinkImg from '../../images/Pumpink.svg';
+
 interface  Pumpink {
     props: any
 }
@@ -17,13 +20,13 @@ const Pumpink:React.FC<Pumpink> = props =>{
         <>
         <PumpinkTag>
             <Header color="#dddddddd" props="/" />
-            <div className="Container">
+            <div data-aos="slide-down" className="Container">
               <div className="Image">
-
+                <img className="Pumpink" src={PumpinkImg} alt=""/>
               </div>
               <div className="Text">
                 <h3 className="PumpinkText">#3 Top Scariest Ghost 2020</h3>
-                <h3 className="PumpinkText">UOOOO  TREAT!!</h3>
+                <h3 className="PumpinkText">UOOOO</h3>
                 <h3 className="PumpinkText">TRICK OR</h3>
                 <h3 className="PumpinkText">TREAT!!</h3>
                 <p className="pumpinkParagraph">
