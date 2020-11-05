@@ -1,46 +1,65 @@
-# Getting Started with Create React App
+<h1 align="center">Welcome to Hallowen Interface! 🎃👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/andersonarorjdev" target="_blank">
+    <img alt="Twitter: andersonarorjdev" src="https://img.shields.io/twitter/follow/andersonarrjdev.svg?style=social" />
+  </a>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h4>Don't afraid! I don't will kill you!🌝 I just want scare you...😬</h4>
 
-In the project directory, you can run:
 
-### `yarn start`
+>> Looking on Drible, i found this interface and i think it amazing...💓, so, why don't reproduce it?🤔🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Look this, but, with caution...💣🗡💀
+<p align="center">
+    <img src="./src/prints/ScaryPage.png">
+</p>
+<p align="center">
+    <img src="./src/prints/ScaryPage2.png">
+</p>
+<p align="center">
+    <img src="./src/prints/ScaryPage3.png">
+</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+***
 
-### `yarn test`
+## Downloading project ⬇
+```sh
+  git clone https://github.com/andersonarorjdev/Hallowen-Interface.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Install the Dependencies 🖥
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+yarn install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Starting the server to see the project 👀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+yarn run 
+``` 
 
-### `yarn eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+👤 **Andersonarorjdev**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Website: https://andersonarorjdev.github.io
+* Twitter: [@andersonarorjdev](https://twitter.com/andersonarorjdev)
+* Github: [@andersonarorjdev](https://github.com/andersonarorjdev)
+* LinkedIn: [@andersonarorjdev](https://linkedin.com/in/andersonarorjdev)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Show your support
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Give a ⭐️ if this project helped you!
 
-## Learn More
+## 📝 License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Copyright © 2020 [Andersonarorjdev](https://github.com/andersonarorjdev).<br />
+This project is [MIT](LICENSE) licensed.
