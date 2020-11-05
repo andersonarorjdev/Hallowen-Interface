@@ -10,11 +10,13 @@ import Logo from '../../images/Logo.svg';
 //Interfaces and types
 interface Param{
     props: any
+    color: any
 }
 
-const Header:React.FC<Param> = _ =>{
+const Header:React.FC<Param> = props =>{
+
     return(
-       <HeaderTag>
+       <HeaderTag color={props.color}>
            <img src={Logo} className="Logo" alt="Logo"/>
 
            <ul className="Menu">

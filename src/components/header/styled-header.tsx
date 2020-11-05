@@ -19,7 +19,7 @@ import styled from 'styled-components';
             line-height: 16px;
             text-align: right;
 
-            color: #FF5B79;
+            color:${props => props.color};
         }
 
         .Menu{
@@ -40,7 +40,7 @@ import styled from 'styled-components';
         }
 
         #ButtonSuport{
-            border: 2px solid #FF5B79;
+            border: 2px solid ${props => props.color};
             padding:7px 20px 7px 20px;
             border-radius:20px;
         }

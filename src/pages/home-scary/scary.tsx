@@ -17,7 +17,7 @@ import stepper from '../../assets/stepper.svg';
 
 //Interfaces and types
 interface Param{
- props: any   
+ props: any  
 }
 
 const ScaryPage:React.FC<Param> = props=>{
@@ -26,7 +26,7 @@ const ScaryPage:React.FC<Param> = props=>{
     }, [])
     return(
             <ScaryPageTag>
-                <HeaderComponent props="/"/>
+                <HeaderComponent props="/" color="#FF5B79"/>
                 <main data-aos="slide-left" id="Container">
                     <div className="Image">
                        <img className="Image" src={MainSkull} alt="" />

@@ -8,6 +8,13 @@ export const WhiteFaceTag = styled.div`
     }
 
     height:100vh;
+    background: linear-gradient(130.02deg, #E8CAFB 0.66%, #8A87C1 83.32%);
+
+   #Container{
+    display:grid;
+    grid-template-rows:1fr;
+    grid-template-columns:repeat(2, 1fr);
+   }
 
 
 `;

@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 import HeaderComponent from '../../components/header/header';
 
 //Imports de Images
-import MainSkull from '../../images/SkullMain.svg';
+import WhiteFace from '../../images/WhiteFace.svg';
 import Arrow from '../../assets/arrow.svg';
 import stepper from '../../assets/stepper.svg';
 
@@ -19,36 +19,9 @@ const WhiteFaces:React.FC = props =>{
     }, [])
     return(
         <WhiteFaceTag>
-                 <HeaderComponent props="/"/>
+                 <HeaderComponent props="/" color="#dddddd"/>
                 <main data-aos="slide-left" id="Container">
-                    <div className="Image">
-                       <img className="Image" src={MainSkull} alt="" />
-                    </div>
-                    <div className="Text">
-                        <div>
-                            <h3 className="Texto">#1 TOP SCARIEST GHOST 2020</h3>
-                            <h1 className="Texto" >RESPAWN</h1>
-                            <h1 className="Texto">THE SPOOKY</h1>
-                            <h1 className="Texto">SKULL</h1>
-                            <p className="Texto">
-                                In search for cute little puppy, Captain Sem has come <br />
-                                backfrom his tragic death. With his hogwarts certified<br /> 
-                                power he promise to be a hero for all of ghostkind.
-                            </p>
-                            <div className="Buttons">
-                                <a href="/" className="ButtonStyled">
-                                    Book Now
-                                </a>
-                                <button className="ButtonArrowed">
-                                    His Track Record
-                                    <img className="Arrow" src={Arrow} />
-                                </button>
-                            </div>
-                        </div>
-                        <div>
-                            <img className="Stepper" src={stepper} alt=""  />
-                        </div>
-                    </div>
+                   
                 </main>
         </WhiteFaceTag>
     );
