@@ -1,9 +1,8 @@
-//Imports from react
 import React, {useEffect} from 'react';
 import Aos from 'aos';
 
 //Imports from styled components
-import  { ScaryPageTag} from './styled-scary';
+import  { WhiteFaceTag} from './styledface';
 import 'aos/dist/aos.css';
 
 //Imports de components
@@ -11,22 +10,16 @@ import HeaderComponent from '../../components/header/header';
 
 //Imports de Images
 import MainSkull from '../../images/SkullMain.svg';
-import Marker from '../../assets/mark.svg';
 import Arrow from '../../assets/arrow.svg';
 import stepper from '../../assets/stepper.svg';
 
-//Interfaces and types
-interface Param{
- props: any   
-}
-
-const ScaryPage:React.FC<Param> = props=>{
-    useEffect(()=> {
-        Aos.init({duration: 2000})
+const WhiteFaces:React.FC = props =>{
+    useEffect(() => {
+        Aos.init({duration: 1500})
     }, [])
     return(
-            <ScaryPageTag>
-                <HeaderComponent props="/"/>
+        <WhiteFaceTag>
+                 <HeaderComponent props="/"/>
                 <main data-aos="slide-left" id="Container">
                     <div className="Image">
                        <img className="Image" src={MainSkull} alt="" />
@@ -57,7 +50,8 @@ const ScaryPage:React.FC<Param> = props=>{
                         </div>
                     </div>
                 </main>
-            </ScaryPageTag>
+        </WhiteFaceTag>
     );
 }
-export default ScaryPage
+
+export default WhiteFaces;

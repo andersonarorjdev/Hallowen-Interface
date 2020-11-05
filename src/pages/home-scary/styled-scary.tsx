@@ -6,6 +6,8 @@ import styled from 'styled-components';
         margin:0;
         box-sizing:border-box;
     }
+
+    height:100vh;
     background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
     box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
 
@@ -36,11 +38,10 @@ import styled from 'styled-components';
     }
 
     .Image{
-        width: 900.21px;
-        height: 675.09px;
-        position:absolute;
-        top:-29px;
-        left:-40px;
+       width:800px;
+       height:512px;
+       position:relative;
+       bottom:50px;
     }
 
 
@@ -100,14 +101,30 @@ import styled from 'styled-components';
     .Buttons{
         display:flex;
         flex-direction:row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items:center;
 
         padding-top:65px;
     }
 
     .ButtonStyled{
-      
+      /* border:#FF5B79 2px solid; */
+      padding:28px;
+      background:#FF5B79;
+      color:white;
+      border-radius:24px;
+
+      font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-decoration:none;
+
+        /* identical to box height */
+        text-align: center;
+
+        color: #FFFFFF;
     }
 
     .ButtonArrowed{
@@ -128,40 +145,6 @@ import styled from 'styled-components';
     }
     .Arrow{
         padding-left:15px;
-    }
-    .AboutSkull{
-        max-width:400px;
-
-        position: relative;
-        top:75%;
-        left:20%;
-        display:flex;
-        flex-direction:column;
-        justify-content: space-between;
-
-    }   
-
-    .AboutSkullText{
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 180%;
-
-        /* identical to box height, or 36px */
-        text-align: right;
-
-        color: #FFFFFF;
-    }
-    .AboutSkullTextSmall{
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
-
-        /* identical to box height */
-        text-align: right;
     }
 `;
 
