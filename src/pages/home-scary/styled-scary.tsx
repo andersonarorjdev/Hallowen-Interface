@@ -10,6 +10,7 @@ import styled from 'styled-components';
     height:100vh;
     background: linear-gradient(136.16deg, rgba(46, 9, 22, 0.97) 12.91%, rgba(32, 10, 43, 0.69) 87.68%);
     box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+    background-attachment: fixed;
 
    #Container{
     display: grid;

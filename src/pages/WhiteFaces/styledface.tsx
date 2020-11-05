@@ -9,6 +9,8 @@ export const WhiteFaceTag = styled.div`
 
     height:100vh;
     background: linear-gradient(130.02deg, #E8CAFB 0.66%, #8A87C1 83.32%);
+    box-shadow: 26px 24px 90px rgba(31, 26, 51, 0.13);
+    background-attachment: fixed;
 
    #Container{
     display:grid;
