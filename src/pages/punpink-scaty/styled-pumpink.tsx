@@ -100,4 +100,18 @@ export const PumpinkTag = styled.main`
         position:relative;
         bottom:10%;
     }
+    .ButtonArrowed{
+        background:none;
+        border:none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: right;
+        color: #FFFFFF;
+        padding-top:5%;
+        padding-left:10%;
+        align-self:center;
+    }
 `;
