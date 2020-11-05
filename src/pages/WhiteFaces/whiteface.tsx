@@ -20,8 +20,27 @@ const WhiteFaces:React.FC = props =>{
     return(
         <WhiteFaceTag>
                  <HeaderComponent props="/" color="#dddddd"/>
-                <main data-aos="slide-left" id="Container">
-                   
+                <main data-aos="fade-left" id="Container">
+                   <div className="Texto">
+                        <h3 className="BigText">#2 top Best duo</h3>
+                        <h1 className="BigText">BRING BACK</h1>
+                        <h1 className="BigText">MY COTTON</h1>
+                        <h1 className="BigText">CANDY</h1>
+                        <p className="BigText"> 
+                        Adino steals his brother cotton candy and eats them <br />
+                        all in one bite, such a hungry beast. Grahami can't hold<br /> 
+                        any longer his anger to Adino.
+                        </p>
+                        
+                        <button className="ButtonArrowed">
+                            His Track Record
+                            <img className="Arrow" src={Arrow} />
+                        </button>
+                   </div>
+                   <div className="Image">
+                    <img src={WhiteFace} className="WhiteFace" alt="" />
+                    <img src={stepper} className="Stepper" alt=""/>
+                   </div>
                 </main>
         </WhiteFaceTag>
     );
